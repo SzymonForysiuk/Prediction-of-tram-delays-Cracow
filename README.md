@@ -1,12 +1,17 @@
 ## Prediction of tram delays in Cracow
 
-<strong> This project is related to a contest posted on Kaggle.com about predicting streetcar delays in the city of Krakow, Poland.</strong><p>
+The project is related to an individual competition held by Dataworkshop’s Data Science
+Club, in which I actively participated as an individual contestant. The main aim of this project was to
+develop a precise predictive model that can forecast tram delays in the city of Kraków. This was
+achieved by developing a machine learning model or neural network that can accurately predict
+delays, measured in seconds.
+Trams are an essential mode of public transportation in Krakow. Accurately predicting tram
+delays can improve the quality of service provided to commuters. The data contains the following
+columns: id, delay (dependent variable), datetime, stop, stop_name, number, direction,
+planned_time, vehicle_id, trip_id, seq_num. The metric that was used in the contest was “mean
+absolute error”.
 
-The premise of the project is to find the delay of Krakow streetcars, in seconds. In situations where the streetcar arrived on time and was ahead of schedule, we treat the same. <p>
-<p>
-Metric that is used in the contest on Kaggle: <strong>Mean Absolute Error</strong><p>
-There are 308,152 rows/records in the data.
- 
+
 Variables:
   
 1. id - id of a record in the data
