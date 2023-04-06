@@ -8,9 +8,7 @@ delays, measured in seconds.
 Trams are an essential mode of public transportation in Krakow. Accurately predicting tram
 delays can improve the quality of service provided to commuters. The data contains the following
 columns: id, delay (dependent variable), datetime, stop, stop_name, number, direction,
-planned_time, vehicle_id, trip_id, seq_num. The metric that was used in the contest was “mean
-absolute error”.
-
+planned_time, vehicle_id, trip_id, seq_num. 
 
 Variables:
   
